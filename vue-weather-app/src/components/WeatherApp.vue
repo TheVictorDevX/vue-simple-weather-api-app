@@ -2,7 +2,7 @@
 import { ref } from "vue";
 
 // Replace with your actual OpenWeatherMap API key
-const apiKey = "7171f1bf3d1cc83378f7d2b2f5bf48a4";
+const apiKey = 'YOUR_API_KEY';
 const city = ref("");
 const weatherData = ref(null);
 const error = ref(null);
